@@ -43,3 +43,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# rails_12factor means that assets in production
+#are served more efficiently speeding up page load
+#times and it allows you to see errors in Heroku
+#error logs
+gem 'rails_12factor', group: :production
