@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>Jazz Splurty</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -25,7 +25,7 @@
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', new_quote_path %>
-      <%= link_to 'About', '#' %>
+      <%= link_to 'About', about_path %>
     </div>
     
   </header>
@@ -47,8 +47,8 @@
       <%= link_to "This isn't enough, I need more", root_path, class:'next-quote' %>
     </div>
     <div class="col-xs-6 footer-blurb">
-      Built with caffeine and callouses somewhere on planet Earth by Ernie Jamison<br />
-      Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+      Built with caffeine and callouses somewhere on planet Earth by <a target="_blank" href="http://github.com/erniej">Ernie Jamison</a><br />
+      Want to build your own Splurty Web App - <a target="_blank" href="http://thefirehoseproject.com">Learn how to code here</a>
     </div>
   </div>
 </footer>
