@@ -1,5 +1,5 @@
 .clear {
-  clear:both;
+  clear: both;
 }
 
 .circle {
@@ -36,6 +36,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Conv_Mohave', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -44,4 +46,14 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'Conv_Mohave', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Conv_Mohave Italics', sans-serif;
 }
