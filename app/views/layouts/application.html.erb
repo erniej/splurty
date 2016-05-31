@@ -9,20 +9,22 @@
 <body>
   <header>
     <div class="col-xs-3">
-      <div class="circle">
-        <br />
-        KEEP
-        <br />
-        IT
-        <br />
-        REAL
-      </div>
+      <%= link_to root_path, class: 'logo' do %>
+        <div class="circle">
+          <br />
+          KEEP
+          <br />
+          IT
+          <br />
+          REAL
+        </div>
+      <% end %>
     </div>
     <div class="col-xs-4 slogan">
       Splurting out unsolicited advice, irreverent statements, and timeless nuggets of wisdom from the masters of Jazz
     </div>
     <div class="col-xs-5 links">
-      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'Contribute', new_quote_path %>
       <%= link_to 'About', '#' %>
     </div>
     
@@ -37,11 +39,10 @@
 <div class="footer">
   <div class="container">
     <div class="col-xs-6">
-      <%= link_to "This isn't enough, I need more", "#", class:'next-quote' %>
+      <%= link_to "This isn't enough, I need more", root_path, class:'next-quote' %>
     </div>
     <div class="col-xs-6 footer-blurb">
-      Built with caffeine and callouses somewhere on planet Earth by Ernie Jamison
-      <br />
+      Built with caffeine and callouses somewhere on planet Earth by Ernie Jamison<br />
       Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
     </div>
   </div>

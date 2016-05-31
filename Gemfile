@@ -55,3 +55,6 @@ gem 'sprockets', '2.11.0'
 
 # include sass-rails
 gem 'sass-rails'
+
+# Use simple_form
+gem 'simple_form'
