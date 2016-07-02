@@ -1,4 +1,1 @@
 == README
-
-"pizza is awesome"
-- Ken
